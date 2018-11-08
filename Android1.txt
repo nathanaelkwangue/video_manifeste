@@ -1,0 +1,595 @@
+Architecture OS mobiles
+• Symbian OS: Ce système d’exploitation était
+développé par NOKIA
+• La couche supérieure de Symbian fournit la
+cadres et bibliothèques pour la construction
+contrôles et utilitaires de l'interface utilisateur.
+• Le noyau gère les ressources système et
+responsable du découpage temporel des applications
+et les tâches du système.
+• La couche Application Engine fournit
+services qui prennent en charge les types génériques de
+applications et la couche de services OS fournit
+serveurs, Frameworks et bibliothèques qui
+implémenter le support du système d'exploitation
+pour les graphiques, les communications et la connectivité
+et multimédia.
+• Java VM fournit un ensemble d’API pour
+appareils mobiles sur le dessus du système d'exploitation.
+5
+Architecture OS mobiles
+• avantages:
+A. Conçu à partir de zéro pour
+plateformes mobiles
+B. Jeux de haute qualité
+C. Connectivité plus facile et plus rapide.
+• Désavantages:
+A. Changements continus dans les interfaces graphiques
+B. se bloque fréquemment et tard
+les réponses.
+• Caractéristiques: tâches multiples, G
+Architecture OS mobiles
+• Palm OS: ce système d’exploitation est
+spécialement conçu pour les PDA et
+Appareils portables.
+• Les bibliothèques système permettent aux développeurs
+étendre facilement la fonctionnalité de
+OS.
+• La couche matérielle est finement ajustée
+et optimisé pour supporter une très
+plage spécifique de H / W, CPU,
+Contrôleur Chips and Smaller
+écrans des appareils basés sur Palm OS.
+• Les bibliothèques tierces fournissent un soutien
+pour des applications tierces telles que
+jeux, dessins graphiques.
+7
+Architecture OS mobiles
+• Désavantages
+A. Pas de clavier
+B. Pas de reconnaissance du texte intégral
+• avantages
+A. Écriture manuelle
+reconnaissance
+B. Support d'expansion
+C. Gestion de la mémoire
+8
+Palm OS
+Architecture OS mobiles
+• Windows Phone OS: développé par
+Microsoft
+• Le matériel est composé d’ARM 7
+Processeur, GPU compatible Direct X 9, 256 Mo
+RAM, affichage multi-tactile capacitif
+avec les boutons physiques requis.
+• Le noyau gère le pilote de périphérique de bas niveau
+l'accès ainsi que la sécurité de base,
+mise en réseau et stockage.
+• Les trois bibliothèques Modèle d'application, Modèle d'interface utilisateur
+et le modèle d'intégration en nuage sont au-dessus
+le noyau pour la gestion des applications
+et notifications.
+• Les API faisant face aux applications incluent Silver
+light, HTMl / Java Script
+• CLR prenant en charge C # .Net et VB.Net
+applications.
+9
+Advanta
+Architecture OS mobiles
+• Firefox OS: développé par Mozilla
+société
+exclusivement pour mobile basé sur le Web
+dispositifs.
+• La couche d’application est composée de l’utilisateur
+implémentation d'interface basée sur
+blocs de construction et bibliothèques JS.
+• La couche de plate-forme Web fournit le runtime
+et middleware qui fournissent
+capacités requises par l'application
+couche.
+• La couche infrastructure fournit le bas
+niveau Services du système d'exploitation, bibliothèques
+et d'autres services d'infrastructure basés
+sous Linux et autres sources ouvertes
+Logiciel.
+• Il fournit également la confidentialité de la publicité et de la sécurité.
+• Gecko Runtime est l'application
+runtime du système d'exploitation Firefox.
+dix
+Avantages: Recherche dynamique d'applications, peut être
+mis à niveau dans certaines parties.
+Inconvénients: apparence et performance
+Architecture OS mobiles
+• Blackberry OS pour BlackBerry Ltd.
+• est un système d’exploitation à micro-noyau basé sur le neutrino QNX
+RTOS. Contrairement aux systèmes d'exploitation classiques, les systèmes d'exploitation à micro-noyau
+mettre en œuvre la quantité minimale de logiciels dans le noyau et exécuter
+d'autres processus dans l'espace utilisateur en dehors du noyau. Parce que
+il y a moins de code dans le noyau, il est moins exposé aux vulnérabilités
+et c’est plus facile à vérifier.
+11
+Architecture
+Architecture OS mobiles
+• iOS pour Apple
+Pilotes de noyau et de périphérique
+• C’est la couche la plus basse de
+iOS qui comprend principalement
+le noyau et le périphérique
+les conducteurs. Le noyau
+l'environnement est construit sur le dessus
+de Mach 3.0 (un micro-noyau
+qui remplacent le noyau
+la version BSD de Unix)
+et fournit des performances élevées
+la mise en réseau
+installations et soutien pour
+fichier multiple intégré
+systèmes.
+13
+Architecture OS mobiles
+• iOS pour Apple
+Couche de base du système d'exploitation
+• La couche Core OS consiste
+technologies et
+cadres qui
+fournir de bas niveau
+services liés au niveau inférieur
+matériel et
+réseaux. Ces services
+sont basés sur des installations dans
+le noyau et le périphérique
+Couche de pilotes.
+14
+Architecture OS mobiles
+• iOS pour Apple
+Couche de services de base
+• se compose de base
+des services tels que l'adresse
+livre, sécurité, social
+et fondation qui
+fournir essentiel
+fonctionnalités aux applications. Il
+donne accès à
+ressources fondamentales
+nécessaire pour app.
+15
+Architecture OS mobiles
+• iOS pour Apple
+Couche de média
+• aide à incorporer la 2D
+et des graphiques 3D,
+animations, image
+effets, et
+de qualité professionnelle
+audio et vidéo
+fonctionnalités dans
+votre application mobile.
+16
+Architecture OS mobiles
+• iOS pour Apple
+Couche de cacao tactile
+• est principalement responsable
+pour l'apparition de
+applications. Il donne accès
+au système principal
+des fonctions telles que les contacts,
+Caméra, saisie tactile,
+partager avec d'autres applications,
+notifications push etc.
+
+
+Composantes - Exemples
+• Activités: une application de messagerie peut avoir une activité qui affiche une liste de
+nouveaux emails, une autre activité pour composer un email, et une autre
+activité pour lire des emails.
+• Services: un service peut jouer de la musique en arrière-plan alors que le
+l'utilisateur est dans une application différente ou pourrait récupérer des données sur le réseau
+sans bloquer l'interaction de l'utilisateur avec une activité.
+• Récepteurs de diffusion: une application peut programmer une alarme pour publier une
+notification pour informer l'utilisateur d'un événement à venir ... et par
+transmettre cette alarme à un BroadcastReceiver de l'application, il n'y a pas
+Il est nécessaire que l'application continue à fonctionner jusqu'à ce que l'alarme se déclenche.
+- provient du système - une émission annonçant que l'écran
+s'est éteinte, la batterie est faible ou une image a été capturée.
+- Provient des applications: pour faire savoir aux autres applications que certaines données ont
+été téléchargés sur l'appareil et est disponible pour qu'ils puissent utiliser
+• Fournisseurs de contenu: pour informer les autres applications que certaines données ont été
+téléchargé sur l'appareil et est disponible pour eux. Les données
+accédé depuis l'URI
+51
+Des ressources
+• Une application nécessite des ressources distinctes de la
+code source, tel que des images, des fichiers audio et tout
+relative à la présentation visuelle de l'application.
+• Par exemple, vous pouvez définir des animations, des menus, des styles,
+couleurs, et la disposition des interfaces utilisateur d'activité avec XML
+des dossiers.
+• L’utilisation des ressources de l’application facilite la mise à jour de divers
+caractéristiques de votre application sans modifier le code.
+• La fourniture d’ensembles de ressources alternatives vous permet de:
+optimiser votre application pour une variété de configurations d'appareils,
+telles que différentes langues et tailles d'écran.
+• Dossiers: color / (accessible à partir de la classe R.color),
+/ drawable (accessible depuis la classe R.drawable), / anim
+(accessible depuis la classe R.anim)
+52
+Les intentions
+• Trois des quatre types de composants - activités, services et
+récepteurs de diffusion - sont activés par un système asynchrone
+message appelé une intention. Les intentions lient des composants individuels
+les uns aux autres au moment de l'exécution. Vous pouvez penser à eux comme à
+des messagers qui demandent une action à d'autres composants,
+si le composant appartient à votre application ou à une autre.
+• Par exemple, une intention peut transmettre une demande d'activité à
+afficher une image ou ouvrir une page Web.
+• Par exemple, vous pouvez émettre une intention de laisser l’utilisateur choisir un
+contact personnel et vous le rendre.
+• Pour les récepteurs de diffusion, l’intention définit simplement le
+annonce en cours de diffusion. Par exemple, une émission destinée à
+indique que la batterie de l'appareil est faible ne comprend qu'une action connue
+chaîne qui indique que la batterie est faible.
+53
+Cycle de vie
+- Activités
+• système Android
+initie sa
+programme avec
+une activité commençant
+avec
+un appel
+on onCreate () callb
+méthode d'ack
+(semblable à
+C
+programme avec le
+principale())
+54
+Cycle de vie - Activités
+• onCreate (): il s’agit du premier rappel, appelé lorsque l’activité est lancée.
+d'abord créé.
+• onStart (): ce rappel est appelé lorsque l'activité devient visible.
+à l'utilisateur.
+• onResume (): Ceci est appelé lorsque l'utilisateur commence à interagir avec
+L'application.
+• onPause (): l’activité suspendue ne reçoit aucune entrée de l’utilisateur et
+ne peut exécuter aucun code et est appelé lorsque l'activité en cours est
+en pause et l’activité précédente est reprise.
+• onStop (): ce rappel est appelé lorsque l'activité n'est plus
+visible.
+• onDestroy (): ce rappel est appelé avant que l'activité ne soit détruite
+par le système.
+• onRestart (): ce rappel est appelé lorsque l'activité redémarre après
+l'arrêter. 55
+Cycle de vie
+- Prestations de service
+• Deux états pour
+un service
+• Un service est démarré quand un
+composant d'application, tel que
+une activité commence par
+appelant startService (). Une fois que
+commencé, un service peut fonctionner dans le
+fond indéfiniment, même si
+le composant qui a commencé est
+détruit.
+• Un service est lié quand un
+composant d'application se lie à
+en appelant bindService (). UNE
+service lié offre un client
+-
+interface de serveur qui permet
+composants avec lesquels interagir
+le service, envoyer des demandes, obtenir
+résultats, et même le faire à travers
+processus avec interprocess
+communication (IPC).
+56
+Cycle de vie - Services
+• onStartCommand (): le système appelle cette méthode lorsqu'un autre
+composant, comme une activité, demande que le service soit
+commencé, en appelant startService (). Vous êtes responsable de l'arrêter avec
+aire d'autoroute().
+• onBind (): le système appelle cette méthode lorsqu'un autre composant
+veut se lier au service en appelant bindService ().
+• onUnbind (): le système appelle cette méthode lorsque tous les clients ont
+déconnecté d'une interface particulière publiée par le service.
+• onRebind (): le système appelle cette méthode lorsque de nouveaux clients ont
+connecté au service, après avoir été préalablement informé que
+tous s'étaient déconnectés dans son onUnbind (Intent).
+• onCreate (): le système appelle cette méthode lors de la première utilisation du service
+créé en utilisant onStartCommand () ou onBind ().
+• onDestroy (): le système appelle cette méthode lorsque le service est no
+plus utilisé et est détruit. Votre service devrait implémenter
+ceci pour nettoyer toutes les ressources telles que les threads, les écouteurs enregistrés,
+récepteurs,
+57
+Cycl
+
+Enregistrement d'un récepteur de diffusion
+• Une application écoute des intentions de diffusion spécifiques
+en enregistrant un récepteur de diffusion
+dans le fichier AndroidManifest.xml.
+• Considérons que nous allons enregistrer MyReceiver pour
+événement généré par le système
+ACTION_BOOT_COMPLETED qui est déclenché par le
+système une fois que le système Android a terminé la
+processus de démarrage.
+60
+Enregistrement d'un récepteur de diffusion
+61
+<application android: icon = "@ drawable / ic_launcher"
+android: label = "@ string / nom_app"
+android: theme = "@ style / AppTheme"> <récepteur
+Android: nom =
+"Mon Récepteur">
+<filtre d'intention> <action android: name =
+«»
+android.intent.action.BOOT_COMPLETED ’’>
+</ action> </ intent-filter> </ receiver> </ application>
+Chaque fois que votre appareil Android est démarré, il sera
+intercepté par BroadcastReceiver MyReceiver et
+la logique implémentée dans onReceive () sera exécutée.
+Enregistrement d'un récepteur de diffusion
+62
+• android.intent.action.BATTERY_CHANGED: collant
+diffusion contenant l’état de charge, le niveau et
+autres informations sur la batterie.
+• android.intent.action.BATTERY_LOW: indique un niveau bas
+état de la batterie sur l'appareil.
+• android.intent.action.BATTERY_OKAY: Indique le
+la batterie est maintenant ok après avoir été faible.
+• android.intent.action.REBOOT: avoir l'appareil
+redémarrer.
+• android.intent.action.CALL_BUTTON: l'utilisateur
+appuyé sur le bouton "appeler" pour aller au composeur ou à un autre
+interface utilisateur appropriée pour passer un appel.
+Cycle de vie - Fournisseur de contenu
+• Un composant fournisseur de contenu fournit des données à partir de
+une application à d'autres sur demande. Un contenu
+fournisseur peut utiliser différentes méthodes pour stocker ses données et
+les données peuvent être stockées dans une base de données, dans des fichiers ou
+même sur un réseau.
+63 FOURNISSEUR DE CONTENU
+Cycle de vie - Fournisseur de contenu
+• Les fournisseurs de contenu vous permettent de centraliser le contenu dans un
+placer et avoir de nombreuses applications différentes y accéder
+comme requis.
+• Un fournisseur de contenu se comporte beaucoup comme un
+base de données où vous pouvez l'interroger, éditer son contenu, comme
+ainsi que d'ajouter ou de supprimer du contenu à l'aide de insert (),
+méthodes update (), delete () et query ().
+• Dans la plupart des cas, ces données sont stockées dans
+une base de données SQlite.
+64
+Cycle de vie - Fournisseur de contenu
+• Pour interroger un fournisseur de contenu, vous spécifiez
+la chaîne de requête sous la forme d'un URI
+qui a le format suivant -
+<préfixe>: // <autorité> / <type_données> / <id>
+65 FOURNISSEUR DE CONTENU
+Cycle de vie - Fournisseur de contenu
+• Préfixe: il est toujours défini sur contenu: //
+• Autorité: spécifie le nom du contenu.
+fournisseur, par exemple contacts, navigateur, etc. Pour un tiers
+fournisseurs de contenu, cela pourrait être le pleinement qualifié
+nom, tel que com.tutorialspoint.statusprovider
+• type_données: indique le type de données que cela
+fournisseur particulier fournit. Par exemple, si vous êtes
+obtenir tous les contacts du Contactscontent
+fournisseur, le chemin de données serait les personnes et l’URI
+ressemblerait à cecicontenu: // contacts / personnes
+• id: Ceci spécifie l'enregistrement spécifique demandé. Pour
+Par exemple, si vous recherchez le numéro de contact 5 dans
+Le fournisseur de contenu des contacts puis l'URI ressemblerait à
+ce contenu: // contacts / people / 5.
+66
+Manifest.xml
+67
+<? xml version = "1.0" encoding = "utf-8"?>
+<manifeste ...>
+<application android: icon = "@ drawable / app_icon.png" ...>
+<activity android: name = "com.example.project.ExampleActivity"
+android: label = "@ string / example_label" ...>
+</ activity>
+<service> ... <intent-filter> ... </ intent-filter> </ service>
+<receiver> ... <intent-filter> ... </ intent-filter> </ receiver>
+<fournisseur> ... <intention-filtre> ... </ intention-filtre> </ fournisseur>
+</ application>
+</ manifest>
+Gestion des processus
+68
+États de processus
+• Nouveau: le processus est créé
+• Running: Les instructions sont exécutées
+• Prêt: le processus est prêt à être exécuté et est
+en attente d'être assigné au processeur
+• En attente: tout événement de ligne doit être effectué
+par conséquent, le processus attend que cet événement se produise
+• Terminé: l'exécution ou le processus est accompli
+Gestion des processus
+
+Gestion de la mémoire - Android
+• La machine virtuelle Android Runtime (ART) et Dalvik
+utilisez la pagination et le mappage de mémoire (mappage) pour
+gérer la mémoire
+• Toute mémoire modifiée par une application, que ce soit en allouant
+nouveaux objets ou toucher des pages mappées - reste
+résident dans la RAM et ne peut pas être paginé.
+• Le seul moyen de libérer de la mémoire d’une application est de
+libérer les références d'objet que l'application détient, faisant
+la mémoire disponible pour le ramasse-miettes.
+• À une exception près: tous les fichiers mappés dans
+sans modification, telle que le code, peut être paginée
+de RAM si le système veut utiliser cette mémoire
+autre part.
+78
+Gestion de la mémoire - Android
+Collecte des ordures
+• Un environnement de mémoire géré, comme l’ART ou
+Dalvik machine virtuelle, garde une trace de chaque mémoire
+allocation.
+• Une fois qu'il a déterminé qu'un morceau de mémoire n'est plus
+étant utilisé par le programme, il le ramène au tas,
+sans aucune intervention du programmeur.
+• Le mécanisme de récupération de la mémoire inutilisée dans un
+environnement de mémoire géré est appelé garbage
+collection.
+• La récupération de place a deux objectifs: trouver des objets de données dans
+programme inaccessible à l’avenir; et
+récupérer les ressources utilisées par ces objets.
+79
+Gestion de la mémoire - Android
+Collecte des ordures
+80
+Gestion de la mémoire - Android
+Collecte des ordures
+81
+Gestion de la mémoire - Android
+Ramasse-miettes - Types de message
+• GC_CONCURRENT: Se produit lorsque le tas grandit (à
+éviter d'agrandir le tas dans le temps)
+• GC_EXPLICIT: déclenché quand une application appelle
+System.gc (). Ne l'utilisez pas!
+• GC_FOR_MALLOC: déclenché lorsque le tas est plein et
+l'application a besoin de plus de mémoire. (arrête app)
+• GC_HPROF_DUMP_HEAP: déclenché lorsqu'un HPROF
+le fichier est créé pour l'analyse de la mémoire
+• GC_BEFORE_OOM: (non documenté) c’est censé
+être déclenché lorsque l'utilisation du tas de dalvik dépasse 90%
+82
+Gestion de la mémoire - Android
+Partage de la mémoire
+• Afin d’adapter tout ce dont il a besoin dans la RAM, Android essaie
+pour partager des pages RAM entre les processus.
+• Chaque processus d'application est créé à partir d'un processus existant.
+appelé Zygote. Le processus Zygote commence lorsque le
+système démarre et charge le code cadre commun et
+ressources (telles que des thèmes d’activités).
+• Pour démarrer un nouveau processus d’application, le système crée une Zygote.
+processus puis charge et exécute le code de l'application dans le nouveau
+processus.
+• Cette approche permet à la plupart des pages RAM allouées
+pour que le code de cadre et les ressources soient partagés entre
+tous les processus de l'application.
+83
+Gestion de la mémoire - Android
+Partage de la mémoire
+La plupart des données statiques sont mappées dans un processus. Ce
+technique permet aux données d'être partagées entre
+processus, et als lui permet d'être paginé quand
+nécessaire.
+Exemple de données statiques: code Dalvik (par
+en le plaçant directement dans un fichier .odex pré-lié
+mappage), des ressources d'application (en concevant
+table de ressources pour être une structure qui peut être
+mmapped et en alignant les entrées de zip du
+APK), et des éléments de projet traditionnels comme les
+code dans les fichiers .so.
+84
+Gestion de la mémoire - Android
+Partage de la mémoire
+Android partage la même RAM dynamique à travers
+processus utilisant explicitement la mémoire partagée allouée
+régions (avec ashmem ou gralloc). Par exemple,
+les surfaces des fenêtres utilisent la mémoire partagée entre le
+compositeur app et screen, et utilisation des tampons de curseur
+mémoire partagée entre le fournisseur de contenu et
+client.
+85
+Gestion de la mémoire - Android
+Allocation et récupération de la mémoire d'application
+• Le tas de Dalvik est contraint à un seul serveur virtuel
+plage de mémoire pour chaque processus d'application. Ceci définit le
+taille de segment logique, qui peut croître autant que nécessaire, mais uniquement
+jusqu'à une limite définie par le système pour chaque application.
+• La taille logique du segment de mémoire n’est pas la même que celle du
+quantité de mémoire physique utilisée par le tas.
+• Lors de l'inspection du tas de votre application, Android calcule une
+valeur appelée la taille proportionnelle de jeu (PSS), qui
+comptes pour les pages sales et propres qui sont partagés
+avec d'autres processus - mais seulement dans une quantité qui est
+proportionnel au nombre d'applications partageant cette RAM.
+• Ce total (PSS) correspond à ce que le système considère comme votre
+empreinte mémoire physique.
+86
+Gestion de la mémoire - Android
+Allocation et récupération de la mémoire d'application
+• Exemple d'utilisation de Dalvik Heap:
+• 20 Mo de (privé)
+• 12 Mo de partagés (entre 4 processus)
+• PSS = 20 + (12/4) = 23
+87
+Gestion de la mémoire - Android
+Allocation et récupération de la mémoire d'application
+• Maintenir un environnement multitâche fonctionnel,
+Android définit une limite stricte sur la taille du tas pour chaque application.
+• La taille exacte du segment de mémoire varie d’un périphérique à l’autre.
+sur combien de RAM le périphérique a globalement disponible.
+• Si votre application a atteint la capacité du tas et essaie de
+allouer plus de mémoire, il peut recevoir
+une erreur OutOfMemoryError.
+• Dans certains cas, vous pouvez interroger le système pour
+déterminer exactement combien d'espace de tas vous avez
+disponible sur le périphérique actuel, par exemple, pour
+Déterminez la quantité de données qu'il est prudent de conserver dans un cache.
+• Vous pouvez interroger le système pour ce chiffre en
+appelant getMemoryClass (). Cette méthode retourne un entier
+indiquant le nombre de mégaoctets disponibles pour votre
+tas de l'application.
+88
+Gestion de la mémoire - Android
+Changer d'applications
+• Lorsque les utilisateurs basculent entre en applications, Android conserve les applications qui
+ne sont pas au premier plan, c'est-à-dire non visibles pour l'utilisateur ou en cours d'exécution
+un service de premier plan comme la lecture de musique - dans un moins récent
+cache utilisé (LRU). Par exemple, lorsqu'un utilisateur lance pour la première fois un
+app, un processus est créé pour cela; mais quand l'utilisateur quitte le
+app, ce processus ne quitte pas. Le système garde le processus
+mis en cache. Si l'utilisateur revient plus tard à l'application, le système réutilise
+le processus, ce qui rend l'application plus rapide.
+• Si votre application a un processus mis en cache et conserve la mémoire qu'elle
+n’a actuellement pas besoin de votre application, même lorsque l’utilisateur
+ne l'utilise pas - affecte les performances globales du système. Comme
+le système manque de mémoire, il tue les processus de la LRU
+cache commençant par le processus le moins utilisé récemment. le
+compte également pour les processus qui tiennent le plus
+mémoire et peut les terminer pour libérer de la RAM.
+89
+Android - Versions
+Nom Date de sortie
+Android 8.0 Oreo 21.08.2017
+Android 7.0x Nougat 22.08.16-04.04.17
+Android 6.x Marshmallow 05.10.2015 - 05.12.2015
+Android 5.x Lollilop 17.10.14-21.04.15
+Android 4.4.x Kitkat 31.10.13 - 23.06.14
+Android 4.1.x,
+Android 4.2.x,
+Android 4.3
+Jelly Bean 09/07 / 12- 09/10/12, 13.11.12 -
+13.02.13, 24.07.13
+Android 4.0.x Ice Cream Sandwich 18.10.2011 - 28.03.2012
+Android 3.x Honeycomb 21.02.11 - 15.02.12
+Android 2.3.x GingerBread 06.12.10 - 21.09.11
+Android 2.2 Froyo 26.05.2010
+Android 2.0.x,
+Android 2.1
+Eclair 26.10.09-03.12.09, 12.01.2010
+90
+http://socialcompare.com/fr/comparison/android-versions-comparison
+Android - Versions
+91
+Android - Versions
+92
+Offre de marché
+93
+Offre de marché
+94
+www.netmarketshare.com
+Offre de marché - Afrique
+95
+Offre de marché - Afrique
+96
+statcounter.com
+OS mobiles
+97
+OS mobiles
